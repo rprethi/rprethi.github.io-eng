@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grotte Fantastique</title>
+    <link rel="icon" type="image/svg" href="./Assets/icon.svg" />
+    <link rel="stylesheet" href="Libraries/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="Css/style.css" />
+  </head>
+  <body class="dark-theme">
+    <!-- header  -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="./index.html" class="nav-logo">
+          <span>prethi</span><img src="./Assets/icon.svg" alt="" />h
+        </a>
+        <div class="nav-menu" id="nav-menu">
+          <ul class="nav-list grid">
+            <li class="nav-item">
+              <a href="./index.html#home" class="nav-link"
+                ><i class="fa-solid fa-house nav-icon"></i> Accueil</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="./index.html#about" class="nav-link"
+                ><i class="fa-solid fa-user nav-icon"></i> À propos</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="./index.html#skills" class="nav-link"
+                ><i class="fa-solid fa-file nav-icon"></i> Compétences</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                href="./index.html#portfolio"
+                class="nav-link active"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                <i class="fa-solid fa-image nav-icon"></i> Projets
+              </a>
+              <div class="dropdown-menu show">
+                <a class="dropdown-item" href="./polaris.html">Polaris</a>
+                <a class="dropdown-item" href="./tictac.html">Tic tac</a>
+                <a class="dropdown-item active" href="./grottefantastique.html"
+                  >Grotte Fantastique</a
+                >
+                <a class="dropdown-item" href="./artechouse.html">Artechouse</a>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a href="./index.html#contact" class="nav-link"
+                ><i class="fa-solid fa-message nav-icon"></i> Contact</a
+              >
+            </li>
+          </ul>
+          <i class="fa-solid fa-xmark nav-close" id="nav-close"></i>
+        </div>
+
+        <div class="nav-btns">
+          <!-- theme btn  -->
+          <i class="fa-regular fa-moon change-theme" id="theme-button"></i>
+
+          <div class="nav-toggle" id="nav-toggle">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="about section">
+        <!-- le projet -->
+        <h2 class="section-title">Grotte Fantastique</h2>
+        <span class="section-subtitle">Modélisation 3D</span>
+        <section class="projet-section">
+          <div class="projet-container container swiper-container">
+            <div class="swiper-wrapper">
+              <!-- project1 -->
+              <div class="project-content grid swiper-slide">
+                <img
+                  src="./Assets/grotte-fantastique/grotte-01.jpg"
+                  alt=""
+                  class="portfolio-img"
+                />
+              </div>
+              <!-- project2 -->
+              <div class="project-content grid swiper-slide">
+                <!-- Changer projet_content en project_content -->
+                <img
+                  src="./Assets/grotte-fantastique/grotte-02.jpg"
+                  alt=""
+                  class="portfolio-img"
+                />
+              </div>
+              <!-- project3 -->
+              <div class="project-content grid swiper-slide">
+                <!-- Changer projet_content en project_content -->
+                <img
+                  src="./Assets/grotte-fantastique/grotte-03.jpg"
+                  alt=""
+                  class="portfolio-img"
+                />
+              </div>
+              <!-- project4 -->
+              <div class="project-content grid swiper-slide">
+                <!-- Changer projet_content en project_content -->
+                <img
+                  src="./Assets/grotte-fantastique/grotte-04.jpg"
+                  alt=""
+                  class="portfolio-img"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div class="about-container container grid">
+          <div class="about-data">
+            <!-- description projet  -->
+            <h3>Description</h3>
+            <p class="about-description">
+              La grotte fantastique offre une immersion captivante dans un monde
+              mystérieux où un <span class="mauve">sorcier aventurier</span> a
+              mystérieusement disparu après avoir exploité ses outils magiques.
+              Ce paysage fantastique se dévoile dans un monde imprégné
+              d'imagination, caractérisé par la présence de
+              <span class="mauve"
+                >champignons aux formes mystérieuses et intrigantes.</span
+              >
+              Cette création invite à une exploration visuelle fascinante, où
+              les objets laissés par l'aventurier disparu suscitent la curiosité
+              et <span class="mauve">captivent l'attention.</span> Un univers
+              qui démontre le mystère visuel et l'intrigue, offrant ainsi une
+              expérience artistique captivante.
+            </p>
+            <h3>Rôle</h3>
+            <p class="about-description">Modélisatrice 3D</p>
+            <h3>Nature du travail</h3>
+
+            <p class="about-description skills-content-projet">
+              <span class="skills-name"><i class="fa-solid fa-users"></i></span>
+            </p>
+            <h3>Logiciels et techniques utilisées</h3>
+            <div class="skills-content container">
+              <div class="skills-name">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="1em"
+                  height="1em"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                    d="M512 512H0V0h512zM406.41 217.014v-39.71c-6.54-2.912-43.991-13.625-73.578-2.335c-42.62 16.262-41.089 65.252-24.916 84.479c20.955 24.912 73.082 34.2 64.552 58.652c-4.417 12.662-25.038 14.866-43.218 10.615c-16.93-3.958-31.65-13.986-31.65-13.986v42.045s14.55 8.112 32.408 10.042c22.893 2.473 51.589-2.197 65.965-14.975c25.59-22.747 29.52-73.137-18.975-96.536c-40.355-19.47-39.691-25.027-39.408-35.014c.38-13.376 28.464-21.61 68.82-3.277M188.79 105.575c33.577 1.168 82.922 16.643 82.922 82.63s-60.374 87.64-115.463 82.922v93.433H115.21V106.45s40.001-2.043 73.579-.875m10.657 124.675c17.696-6.457 29.198-20.338 29.198-41.9c0-22.861-11.705-38.342-29.607-42.715c-19.386-4.737-42.789-1.945-42.789-1.945v90.044s32.395.458 43.198-3.484"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div class="skills-name">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="1em"
+                  height="1em"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M4.348 0L.69 2.203v16.875l3.657-2.203h17.297V1.219c0-.67-.551-1.219-1.22-1.219H4.349zm18.297 3.75v14.125H4.627l-1.943 1.17v3.736c0 .67.55 1.219 1.218 1.219H23.31V3.75zm-14.471.025h2.937l1.885 7.508l1.977-7.48l-.012-.028h2.857v9.354h-2.216v-6.04l-1.565 6.026v.014h-2.203l-1.656-6.28v6.28H8.174zm1.33 14.762h1.18l1.068 3.543h-.902l-.217-.773H9.568l-.197.773h-.88zm1.918 0h.932l.648 1.494l.643-1.494h.894l-1.113 2.133v1.41h-.887v-1.406zm3.826 0h1.18l1.068 3.543h-.9l-.217-.773h-1.065l-.197.773h-.88zm-5.156.582l-.362 1.53h.73zm5.744 0l-.36 1.53h.73z"
+                  />
+                </svg>
+              </div>
+              <div class="skills-name">
+                <i class="fa-brands fa-unity"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="processus-section">
+        <h2 class="section-title">Processus de création</h2>
+        <span class="section-subtitle">Autodesk Maya 3D et Unity</span>
+        <div class="processus-container container swiper-container">
+          <div class="swiper-wrapper">
+            <!-- project1 -->
+            <div class="project-content grid swiper-slide">
+              <img
+                src="./Assets/grotte-fantastique/processus-creation/processus-tresor.png"
+                alt=""
+                class="portfolio-img"
+              />
+            </div>
+            <!-- project2 -->
+            <div class="project-content grid swiper-slide">
+              <img
+                src="./Assets/grotte-fantastique/processus-creation/processus-mortier.png"
+                alt=""
+                class="portfolio-img"
+              />
+            </div>
+            <!-- project3 -->
+            <div class="project-content grid swiper-slide">
+              <img
+                src="./Assets/grotte-fantastique/processus-creation/processus-epee.png"
+                alt=""
+                class="portfolio-img"
+              />
+            </div>
+            <!-- project4 -->
+            <div class="project-content grid swiper-slide">
+              <img
+                src="./Assets/grotte-fantastique/processus-creation/processus-unity.png"
+                alt=""
+                class="portfolio-img"
+              />
+            </div>
+          </div>
+
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <!-- footer  -->
+      <footer class="footer">
+        <div class="footer-bg">
+          <div class="footer-container container grid">
+            <div>
+              <a href="index.html"
+                ><h1 class="footer-title">Prethiah Rajaratnam</h1></a
+              >
+            </div>
+            <ul class="footer-links">
+              <li>
+                <a href="./index.html#home" class="footer-link">Accueil</a>
+              </li>
+              <li>
+                <a href="./index.html#about" class="footer-link">Propos</a>
+              </li>
+
+              <li>
+                <a href="./index.html#skills" class="footer-link"
+                  >Compétences</a
+                >
+              </li>
+              <li>
+                <a href="./index.html#portfolio" class="footer-link"
+                  >Portfolio</a
+                >
+              </li>
+            </ul>
+            <div class="footer-socials">
+              <a href="" target="_blank" class="footer-social">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a
+                href="https://www.behance.net/prethiah"
+                target="_blank"
+                target="_blank"
+                class="footer-social"
+              >
+                <i class="fa-brands fa-behance"></i>
+              </a>
+              <a
+                href="https://github.com/rprethi"
+                target="_blank"
+                class="footer-social"
+              >
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <script src="Libraries/swiper-bundle.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/9b634c15bd.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>

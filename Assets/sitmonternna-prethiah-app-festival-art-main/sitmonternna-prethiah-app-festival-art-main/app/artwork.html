@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>MAGENTAVERSE</title>
+    <!-- AJOUT FAVICON -->
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="../asset/favicon_arthechouse.png"
+    />
+    <!-- AJOUT BOOTSTRAP + ICON BOOTSTRAP -->
+    <link href="../scss/custom_bootstrap.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <!-- AJOUT SWIPER -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!-- LIEN AVEC LES AUTRES FICHIERS CSS -->
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/styles_app.css" />
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#IdNav">
+    <header>
+      <!-- SECTION MENU -->
+      <nav class="navbar bg-transparent fixed-top">
+        <div class="container-fluid justify-content-between">
+          <button
+            type="button"
+            class="bi bi-heart-fill btn-primary text-white order-3"
+          ></button>
+          <a href="../app/index.html"
+            ><i class="bi bi-chevron-left text-light order-first"></i
+          ></a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <img
+        src="../asset/artworks/magentaverse.png"
+        class="oeuvre-magentaverse"
+      />
+
+      <!-- SECTION OEUVRE HEURE ET LIEU-->
+      <section class="oeuvre bg-white mt-3 p-0">
+        <section class="oeuvre-info">
+          <div class="container-fluid">
+            <div class="row">
+              <h1 class="titre-oeuvre pt-3 ms-3 mb-3">Magentaverse</h1>
+              <div class="col">
+                <span class="me-3 ms-3">
+                  <i class="bi bi-geo-fill text-dark"></i>
+                  <p class="texte-place text-dark d-inline">Miami</p>
+                </span>
+                <span>
+                  <i
+                    class="bi bi-calendar4-range text-dark day-magentaverse"
+                  ></i>
+                  <p class="text-dark d-inline texte-date">12 avril 2024</p>
+                </span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- SECTION OEUVRE TITRE: LES ARTISTES-->
+        <section class="les-artistes mt-3 p-0">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col">
+                <h5
+                  class="titres-artistes mx-3 mt-4 bg-light text-secondary p-2"
+                >
+                  Artiste.s
+                </h5>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- SECTION OEUVRE CARTE INFORAMATION-->
+        <section class="oeuvre-card mt-3 p-0">
+          <div class="container-fluid">
+            <div class="card mx-3 bg-white carte-ariste">
+              <img
+                src="../asset/artists/artiste_07.jpg"
+                class="card-img-top image-artiste"
+              />
+              <div class="card-body">
+                <h5 class="titre-carte text-primary fw-bolder">Magentaverse</h5>
+                <p class="texte-carte text-dark">
+                  Cette expérience immersive vous permet d'explorer le virtuel
+                  au sein du monde physique pour examiner les liens entre la
+                  nature et la technologie. En nous plongeant dans un univers de
+                  couleurs inattendu et passionnant, elle offre une opportunité
+                  de se reconnecter à la terre et de nous immerger dans nos
+                  énergies créatives, galvanisant ainsi notre esprit et
+                  améliorant notre bien-être.
+                </p>
+                <button
+                  type="button"
+                  class="btn btn-outline-secondary fw-bolder"
+                  data-bs-toggle="modal"
+                  data-bs-target="#infoArtisteOeuvre"
+                >
+                  En savoir plus
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- SECTION OEUVRE À PROPOS-->
+        <section class="info-propos mt-3 p-0">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col">
+                <h5 class="titre-propos mx-3 mt-4 bg-light text-secondary p-2">
+                  À propos de l'oeuvre
+                </h5>
+
+                <div class="propos-oeuvre ms-3 mb-3">
+                  <p class="text-primary mb-2">Type: Art numérique</p>
+                  <p class="text-primary mb-2">Durée: 45 min à 60 min</p>
+                  <p class="text-primary mb-2">Âge: 4 ans+</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- SECTION ACCORDION -->
+        <section class="accordion mx-3 mt-3 p-0" id="accordeonFormulaire">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="enteteFormulaire">
+                    <button
+                      class="accordion-button bg-primary text-white collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseFormulaire"
+                      aria-expanded="true"
+                      aria-controls="collapseFormulaire"
+                    >
+                      Réservez votre place
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseFormulaire"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="enteteFormulaire"
+                    data-bs-parent="#accordeonFormulaire"
+                  >
+                    <div class="accordion-body">
+                      <form action="">
+                        <label for="inputEmailPersonne" class="fw-bold"
+                          >Courriel</label
+                        >
+                        <input
+                          type="email"
+                          class="form-control mb-3"
+                          id="inputEmailPersonne"
+                          placeholder="nom@example.com"
+                        />
+                        <label for="inputPrenomPersonne" class="mb-1 fw-bold"
+                          >Prénom</label
+                        >
+                        <input
+                          type="text"
+                          class="form-control mb-3"
+                          id="inputPrenomPersonne"
+                        />
+                        <label for="inputNomPersonne" class="mb-1 fw-bold"
+                          >Nom</label
+                        >
+                        <input
+                          type="text"
+                          class="form-control mb-3"
+                          id="inputNomPersonne"
+                        />
+                        <label for="inputDate" class="mb-1 fw-bold">Date</label>
+                        <input
+                          type="date"
+                          class="form-control mb-3"
+                          id="inputDate"
+                        />
+                        <button
+                          type="submit"
+                          class="btn btn-outline-secondary fw-bolder mt-3"
+                        >
+                          Envoyer
+                        </button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <!-- SECTION MODAL -->
+      <section class="modal fade mt-3 p-0" tabindex="-1" id="infoArtisteOeuvre">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col">
+              <div class="modal-dialog modal-dialog-centered modal-sm">
+                <div class="modal-content">
+                  <div class="modal-header bg-secondary">
+                    <h2 class="modal-titre fw-bold mt-2">Béatrice Pelletier</h2>
+                    <button
+                      class="btn-close fermer"
+                      data-bs-dismiss="modal"
+                      aria-label="Fermerfenêtre"
+                    ></button>
+                  </div>
+                  <div class="modal-body p-3">
+                    Béatrice Pelletier est une artiste visionnaire dont le
+                    travail transcende les frontières entre le réel et le
+                    virtuel. Elle est surtout connue pour son œuvre
+                    révolutionnaire, Magentaverse, une expérience immersive qui
+                    invite les spectateurs à explorer un univers de couleurs et
+                    de formes infinies. À travers cette création, Pelletier
+                    offre une occasion unique de se plonger dans une réalité
+                    alternative où la nature et la technologie fusionnent
+                    harmonieusement. Son travail éveille les sens et stimule
+                    l'imagination, offrant ainsi une expérience profondément
+                    enrichissante qui encourage la connexion avec la terre et la
+                    créativité intérieure. En tant que pionnière de l'art
+                    numérique, Béatrice Pelletier inspire non seulement par ses
+                    créations, mais aussi par sa capacité à repousser les
+                    limites de l'expression artistique moderne.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- SECTION FOOTER -->
+    <footer>
+      <div class="container-fluid mt-3 p-0">
+        <div class="row">
+          <div class="col-sm-6 text-sm-start text-center">
+            <p>
+              Projet fictif réalisé dans le cadre du cours Optimisation Web
+              582-424MO. Ui de l’app créé par Prethiah Rajaratnam.
+            </p>
+          </div>
+          <div class="col-sm-6 text-sm-end text-center align-self-center">
+            <img class="tim" src="../asset/logo_09.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- AJOUT BOOTSTRAP JAVASCRIPT -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- AJOUT SWIPER JAVASCRIPT -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- LIEN AVEC FICHIER JAVASCRIPT EXTERNE-->
+    <script src="../js/script.js"></script>
+  </body>
+</html>

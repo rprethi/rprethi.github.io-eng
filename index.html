@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prethiah Rajaratnam</title>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <link rel="icon" type="image/svg" href="./Assets/icon.svg" />
+    <link rel="stylesheet" href="Libraries/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="Css/style.css" />
+  </head>
+  <body class="dark-theme">
+    <!-- header  -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="index.html" class="nav-logo">
+          <span>prethi</span><img src="./Assets/icon.svg" alt="" />h
+        </a>
+        <!-- menu  -->
+        <div class="nav-menu" id="nav-menu">
+          <ul class="nav-list grid">
+            <li class="nav-item">
+              <a href="#home" class="nav-link"
+                ><i class="fa-solid fa-house nav-icon"></i> Accueil</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#portfolio" class="nav-link"
+                ><i class="fa-solid fa-image nav-icon"></i> Projets</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link"
+                ><i class="fa-solid fa-user nav-icon"></i> Propos</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link"
+                ><i class="fa-solid fa-file nav-icon"></i> Compétences</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link"
+                ><i class="fa-solid fa-message nav-icon"></i> Contact</a
+              >
+            </li>
+          </ul>
+          <i class="fa-solid fa-xmark nav-close" id="nav-close"></i>
+        </div>
+
+        <div class="nav-btns">
+          <!-- theme btn  -->
+          <i class="fa-regular fa-moon change-theme" id="theme-button"></i>
+
+          <div class="nav-toggle" id="nav-toggle">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <!-- socials  -->
+      <section class="home section" id="home">
+        <div class="home-container container grid">
+          <div class="home-content grid">
+            <div class="home-social">
+              <a
+                href="https://www.linkedin.com/in/prethiah/"
+                target="_blank"
+                class="home-social-icon"
+              >
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a
+                href="https://www.behance.net/prethiah"
+                target="_blank"
+                class="home-social-icon"
+              >
+                <i class="fa-brands fa-behance"></i>
+              </a>
+              <a
+                href="https://github.com/rprethi"
+                target="_blank"
+                class="home-social-icon"
+              >
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </div>
+            <!-- accueil photo  -->
+            <div class="home-img">
+              <svg
+                class="home-blob"
+                viewBox="0 0 200 187"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <mask id="mask0" mask-type="alpha">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+        130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+        97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+        0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                </mask>
+                <g mask="url(#mask0)">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+        165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+        129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+        -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                  <image
+                    class="home-blob-img"
+                    x="-15"
+                    y="-5"
+                    href="./Assets/prethiah.png"
+                  />
+                </g>
+              </svg>
+            </div>
+            <!-- accueil detail  -->
+            <div class="home-data">
+              <h1 class="home-title">Prethiah Rajaratnam</h1>
+              <h3 class="home-subtitle">
+                Bienvenue sur mon portfolio, où je présente mes
+                <mark>compétences</mark>, mon <mark>expérience</mark> et ma
+                <mark>passion</mark> pour<br />
+                <span class="auto-typed"></span>
+              </h3>
+              <p class="home-description"></p>
+              <a href="mailto:prethiah@gmail.com" class="button button-flex">
+                Contactez-moi <i class="fa-regular fa-envelope button-icon"></i>
+              </a>
+            </div>
+          </div>
+          <div class="home-scroll">
+            <a href="#portfolio" class="home-scroll-button button-flex">
+              <span class="home-scroll-name">Défiler vers le bas</span>
+              <i class="fa-solid fa-angles-down home-scroll-arrow"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- portfolio -->
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section-title">Projets</h2>
+        <span class="section-subtitle"
+          >Programmation Web - Modélisation 3D - Montage Vidéo</span
+        >
+
+        <div class="portfolio-container container swiper-container">
+          <div class="swiper-wrapper">
+            <!-- project1 -->
+            <div class="portfolio-content grid swiper-slide">
+              <a href="./polaris.html">
+                <img src="./Assets/polaris.jpg" alt="" class="portfolio-img" />
+              </a>
+              <div class="portfolio-data">
+                <h3 class="portfolio-title">Polaris</h3>
+                <p class="portfolio-description">
+                  <strong>Web</strong><br />
+                  Un jeune garçon, guidé par une étoile lumineuse, explore
+                  l'univers fascinant des constellations dans une aventure
+                  onirique et mystérieuse.
+                </p>
+                <a
+                  href="./polaris.html"
+                  class="button button-flex button-small portfolio-button"
+                >
+                  Voir plus
+                  <i class="fa-solid fa-arrow-right button-icon"></i>
+                </a>
+              </div>
+            </div>
+            <!-- project2 -->
+            <div class="portfolio-content grid swiper-slide">
+              <a href="./artechouse.html">
+                <img
+                  src="./Assets/artechouse.png"
+                  alt=""
+                  class="portfolio-img"
+                />
+              </a>
+              <div class="portfolio-data">
+                <h3 class="portfolio-title">Artechouse</h3>
+                <p class="portfolio-description">
+                  <strong>Web</strong><br />
+                  Création d'une page web pastiche d'<a
+                    href="https://www.artechouse.com/"
+                    target="_blank"
+                    class="a-content"
+                    >Artechouse</a
+                  >, développée avec Bootstrap, alliant design moderne et
+                  fonctionnalité optimisée.
+                </p>
+                <a
+                  href="./artechouse.html"
+                  class="button button-flex button-small portfolio-button"
+                >
+                  Voir plus
+                  <i class="fa-solid fa-arrow-right button-icon"></i>
+                </a>
+              </div>
+            </div>
+            <!-- project3 -->
+            <div class="portfolio-content grid swiper-slide">
+              <a href="./grottefantastique.html">
+                <img
+                  src="./Assets/grotte_fantastique.png"
+                  alt=""
+                  class="portfolio-img"
+                />
+              </a>
+              <div class="portfolio-data">
+                <h3 class="portfolio-title">Grotte fantastique</h3>
+                <p class="portfolio-description">
+                  <strong>Modélisation 3D</strong><br />
+                  La grotte fantastique vous plonge dans un monde mystérieux,
+                  marqué par la disparition d'un sorcier aventurier et la
+                  présence d'objets magiques.
+                </p>
+                <a
+                  href="./grottefantastique.html"
+                  class="button button-flex button-small portfolio-button"
+                >
+                  Voir plus
+                  <i class="fa-solid fa-arrow-right button-icon"></i>
+                </a>
+              </div>
+            </div>
+            <!-- project4 -->
+            <div class="portfolio-content grid swiper-slide">
+              <a href="./tictac.html">
+                <img src="./Assets/tictac.jpg" alt="" class="portfolio-img" />
+              </a>
+              <div class="portfolio-data">
+                <h3 class="portfolio-title">Tic Tac</h3>
+                <p class="portfolio-description">
+                  <strong>Montage Vidéo</strong><br />
+                  Nicole, jeune candidate prometteuse, rate son entretien après
+                  s'être endormie dans la salle d'attente, révélant les périls
+                  d'une précaution excessive.
+                </p>
+                <a
+                  href="./tictac.html"
+                  class="button button-flex button-small portfolio-button"
+                >
+                  Voir plus
+                  <i class="fa-solid fa-arrow-right button-icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-angles">
+            <div class="swiper-button-next">
+              <i class="fa-solid fa-angle-right swiper-icon"></i>
+            </div>
+            <div class="swiper-button-prev">
+              <i class="fa-solid fa-angle-left swiper-icon"></i>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <section class="about section" id="about">
+        <h2 class="section-title">À propos</h2>
+        <span class="section-subtitle">Mon objectif</span>
+
+        <div class="about-container container grid">
+          <div class="about-data">
+            <p class="about-description">
+              En tant qu'étudiante passionnée par l'<span class="mauve"
+                >intégration web</span
+              >
+              et les technologies émergentes, je vise à intégrer une entreprise
+              dynamique où je pourrai relever
+              <span class="mauve">de nouveaux défis</span>. Mon ambition est de
+              participer activement à l’optimisation des solutions web, tout en
+              améliorant l’expérience utilisateur et en assurant la qualité des
+              interfaces. Je souhaite mettre mes compétences en développement et
+              ma <span class="mauve">créativité</span> au service de projets
+              innovants qui transforment l'expérience numérique.
+            </p>
+
+            <div class="about-buttons">
+              <a
+                download=""
+                href="./Assets/rajaratnam_prethiah_cv.pdf"
+                class="button button-flex"
+              >
+                Télécharger CV<i
+                  class="fa-solid fa-file-arrow-down button-icon"
+                ></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- skills and qualification  -->
+      <section class="skills section" id="skills">
+        <h2 class="section-title">Compétences</h2>
+        <span class="section-subtitle">Logiciel et Programmation web</span>
+        <div class="skills-content container">
+          <div class="skills-name">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="1em"
+              height="1em"
+              viewBox="0 0 32 32"
+            >
+              <path
+                fill="currentColor"
+                d="M30.865 3.448L24.282.281a1.99 1.99 0 0 0-2.276.385L9.397 12.171L3.902 8.004a1.33 1.33 0 0 0-1.703.073L.439 9.681a1.33 1.33 0 0 0-.005 1.969L5.2 15.999L.434 20.348a1.33 1.33 0 0 0 .005 1.969l1.76 1.604a1.33 1.33 0 0 0 1.703.073l5.495-4.172l12.615 11.51a1.98 1.98 0 0 0 2.271.385l6.589-3.172a1.99 1.99 0 0 0 1.13-1.802V5.248c0-.766-.443-1.469-1.135-1.802zm-6.86 19.818L14.432 16l9.573-7.266z"
+              />
+            </svg>
+          </div>
+          <div class="skills-name">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="1em"
+              height="1em"
+              viewBox="0 0 512 512"
+            >
+              <path
+                fill="currentColor"
+                fill-rule="evenodd"
+                d="M512 512H0V0h512zM406.41 217.014v-39.71c-6.54-2.912-43.991-13.625-73.578-2.335c-42.62 16.262-41.089 65.252-24.916 84.479c20.955 24.912 73.082 34.2 64.552 58.652c-4.417 12.662-25.038 14.866-43.218 10.615c-16.93-3.958-31.65-13.986-31.65-13.986v42.045s14.55 8.112 32.408 10.042c22.893 2.473 51.589-2.197 65.965-14.975c25.59-22.747 29.52-73.137-18.975-96.536c-40.355-19.47-39.691-25.027-39.408-35.014c.38-13.376 28.464-21.61 68.82-3.277M188.79 105.575c33.577 1.168 82.922 16.643 82.922 82.63s-60.374 87.64-115.463 82.922v93.433H115.21V106.45s40.001-2.043 73.579-.875m10.657 124.675c17.696-6.457 29.198-20.338 29.198-41.9c0-22.861-11.705-38.342-29.607-42.715c-19.386-4.737-42.789-1.945-42.789-1.945v90.044s32.395.458 43.198-3.484"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </div>
+          <div class="skills-name">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="1em"
+              height="1em"
+              viewBox="0 0 128 128"
+            >
+              <path
+                fill="currentColor"
+                fill-rule="evenodd"
+                d="M47.955 69h15.371c-2.646-9-5.252-17.32-7.816-25.776C53.022 51.71 50.498 60 47.955 69m76.157-68H2.873C.687 1 1 1.476 1 3.585v121.394C1 127.086.687 127 2.719 127h121.547c2.031 0 2.734.086 2.734-2.022V3.739C127 1.476 126.298 1 124.112 1M77.298 96c-1.637 0-3.28-.133-4.909-.016c-1.175.088-1.568-.406-1.881-1.426c-1.514-4.931-3.123-9.86-4.638-14.79c-.305-.992-.741-1.354-1.816-1.341c-5.523.064-11.049.058-16.573-.007c-1.163-.014-1.698.296-2.03 1.45c-1.406 4.904-2.944 9.768-4.365 14.667c-.308 1.062-.776 1.433-1.904 1.404c-3.318-.083-6.641-.032-10.274-.032c.959-3.045 1.829-5.861 2.729-8.665c5.514-17.2 11.047-34.4 16.521-51.611c.382-1.198.913-1.567 2.143-1.54c3.886.086 7.775.022 11.663 0c.727-.005 1.223.038 1.489.864c6.505 20.116 13.033 40.356 19.555 60.47c.028.091.01.573.025.573zM98 96H86V51h12zm-6.35-51.071c-3.665-.005-6.289-2.528-6.314-6.07c-.024-3.532 2.707-6.159 6.406-6.163c3.728-.004 6.355 2.537 6.384 6.171c.026 3.545-2.667 6.068-6.476 6.062"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </div>
+          <div class="skills-name">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="1em"
+              height="1em"
+              viewBox="0 0 512 512"
+            >
+              <path
+                fill="currentColor"
+                d="M389.186 214.341c4.678 8.911 6.247 18.416 6.107 28.248h-67.587c4.105-26.449 14.979-42.58 36.555-42.095c12.549 0 20.857 4.622 24.925 13.847m-248.688 36.002H198.1l-29.909-112.99c-3.756 25.557-16.927 69.1-27.693 112.99M512 0v512H0V0zM274.413 365.548L195.228 98.582h-54.73c0 5.92-.38 12.376-1.108 14.955c-.744 2.596-1.108 4.985-1.108 7.2L68.336 365.548h41.384l19.7-75.326h77.543l21.684 75.326zm161.852-120.744c0-17.724-5.176-35.447-15.508-53.171c-10.35-17.724-28.802-26.586-55.388-26.586c-25.858 0-45.971 10.16-60.371 30.463C277.833 231.333 275 299 303.89 338.408c13.656 20.32 36.365 30.464 68.126 30.464c17.393-.044 33.978-2.142 48.74-8.863c1.723-1.774 2.168-2.616 2.216-5.539v-29.909c-.05-2.074-1.187-2.16-3.323-2.214c-21.615 10.563-53.033 10.187-68.928 1.022c-14.79-8.527-23.485-26.35-23.015-47.547h63.141c11.078 0 19.94-.174 26.586-.554c6.647-.364 11.44-.918 14.4-1.662c.728 0 1.282-.174 1.662-.554l1.662-1.662c0-2.215.173-5.712.554-10.524c.363-4.794.554-10.142.554-16.062"
+              />
+            </svg>
+          </div>
+          <div class="skills-name">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="1em"
+              height="1em"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="currentColor"
+                d="M17.621 0L5.977.004c-1.37 0-2.756.345-3.762 1.11a4.9 4.9 0 0 0-1.61 2.003C.233 3.93 0 5.02 0 5.951l.012 12.2c.002 1.604.479 3.057 1.461 4.112c.984 1.056 2.462 1.683 4.331 1.691L16.856 24c1.26.005 3.095-.036 4.303-.714c1.075-.605 2.025-1.556 2.497-2.984c.278-.84.345-2.084.344-3.147l-.021-11.13c-.002-.888-.15-2.023-.547-2.934c-.425-.976-1.181-1.815-2.322-2.425C20.353.26 19.123 0 17.622 0zm0 .93c1.378 0 2.538.295 3.04.565c.977.523 1.544 1.166 1.889 1.96c.315.721.47 1.793.473 2.572l.018 11.13c.002 1.013-.097 2.257-.298 2.86c-.396 1.202-1.146 1.946-2.063 2.462c-.814.457-2.612.593-3.82.588l-11.05-.044c-1.657-.007-2.832-.534-3.626-1.386c-.792-.851-1.212-2.06-1.212-3.485L.999 5.95c0-.829.196-1.827.474-2.437c.345-.757.75-1.207 1.365-1.674C3.585 1.27 4.868.97 6.08.97zm-5.66 3.423c-1.976.089-3.204 1.658-3.214 3.29c.019 1.443 1.635 3.481 2.884 4.53c.12.099.154.109.33.18c.062.025.198-.047.327-.135c.36-.245.993-.947 1.648-1.738a7.7 7.7 0 0 0 1.031-1.683c.409-.89.261-1.599.235-1.888a4 4 0 0 0-.99-1.692a3.36 3.36 0 0 0-2.251-.864m4.172 7.922a10.2 10.2 0 0 0-3.244.61c-.15.058-.26.1-.374.17c-.057.036-.11.135-.105.292c.017.433.29 1.278.624 2.27c.384 1.135 1.066 2.27 1.844 2.74a3.23 3.23 0 0 0 2.53.342c.832-.243 1.595-.868 1.962-1.546c.986-1.818.19-3.548-1.121-4.417c-.447-.296-1.133-.445-1.89-.46zm-8.432.038a6 6 0 0 0-.752.047c-.596.078-.932.273-1.29.51a3.18 3.18 0 0 0-1.365 1.979c-.075.552-.086 1.053.033 1.507c.433 1.389 1.326 2.222 2.847 2.452c.636.028 1.37-.063 1.99-.45c1.269-.782 2.08-3.17 2.412-4.742c.053-.176.035-.357-.013-.42c-.005-.067-.044-.113-.19-.183c-.398-.192-1.32-.417-2.375-.6a7.7 7.7 0 0 0-1.297-.1"
+              />
+            </svg>
+          </div>
+          <div class="skills-name">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="1em"
+              height="1em"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="currentColor"
+                d="M4.348 0L.69 2.203v16.875l3.657-2.203h17.297V1.219c0-.67-.551-1.219-1.22-1.219H4.349zm18.297 3.75v14.125H4.627l-1.943 1.17v3.736c0 .67.55 1.219 1.218 1.219H23.31V3.75zm-14.471.025h2.937l1.885 7.508l1.977-7.48l-.012-.028h2.857v9.354h-2.216v-6.04l-1.565 6.026v.014h-2.203l-1.656-6.28v6.28H8.174zm1.33 14.762h1.18l1.068 3.543h-.902l-.217-.773H9.568l-.197.773h-.88zm1.918 0h.932l.648 1.494l.643-1.494h.894l-1.113 2.133v1.41h-.887v-1.406zm3.826 0h1.18l1.068 3.543h-.9l-.217-.773h-1.065l-.197.773h-.88zm-5.156.582l-.362 1.53h.73zm5.744 0l-.36 1.53h.73z"
+              />
+            </svg>
+          </div>
+          <div class="skills-name">
+            <i class="fa-brands fa-unity"></i>
+          </div>
+          <div class="skills-name">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="1em"
+              height="1em"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="currentColor"
+                d="M1.769 0A1.77 1.77 0 0 0 0 1.769V22.23A1.77 1.77 0 0 0 1.769 24H22.23A1.77 1.77 0 0 0 24 22.231V1.77A1.77 1.77 0 0 0 22.231 0zm12.485 3.28a4.3 4.3 0 0 1 4.3 4.302a4.3 4.3 0 0 1-1.993 3.63a6.1 6.1 0 0 1 1.054 3.422a6.085 6.085 0 0 1-6.085 6.085a6.085 6.085 0 0 1-6.085-6.085a6.085 6.085 0 0 1 4.66-5.916a4.3 4.3 0 0 1-.152-1.136a4.3 4.3 0 0 1 4.301-4.301zm0 1.849a2.453 2.453 0 0 0-2.453 2.453a2.453 2.453 0 0 0 2.453 2.453a2.453 2.453 0 0 0 2.453-2.453a2.453 2.453 0 0 0-2.453-2.453m-2.724 5.268a4.237 4.237 0 0 0-4.237 4.237a4.237 4.237 0 0 0 4.237 4.237a4.237 4.237 0 0 0 4.237-4.237a4.237 4.237 0 0 0-4.237-4.237m.032 2.54a1.781 1.781 0 1 1 0 3.562a1.781 1.781 0 0 1 0-3.562"
+              />
+            </svg>
+          </div>
+          <div class="skills-name">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="1em"
+              height="1em"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="currentColor"
+                d="M18.087 6.146c-.3 0-.607.017-.907.069c-2.532.367-4.23 2.239-5.18 3.674c-.95-1.435-2.648-3.307-5.18-3.674a6.5 6.5 0 0 0-.907-.069C2.648 6.146 0 8.77 0 12s2.656 5.854 5.913 5.854c.3 0 .607-.017.916-.069c2.531-.376 4.23-2.247 5.18-3.683c.949 1.436 2.647 3.307 5.18 3.683c.299.043.607.069.915.069C21.344 17.854 24 15.23 24 12s-2.656-5.854-5.913-5.854M6.53 15.734a4 4 0 0 1-.625.043c-2.148 0-3.889-1.7-3.889-3.777c0-2.085 1.749-3.777 3.898-3.777q.312.002.624.043c2.39.35 3.847 2.768 4.347 3.734c-.508.974-1.974 3.384-4.355 3.734m11.558.043q-.312-.002-.624-.043c-2.39-.35-3.856-2.768-4.347-3.734c.491-.966 1.957-3.384 4.347-3.734q.312-.041.624-.043c2.149 0 3.89 1.7 3.89 3.777c0 2.085-1.75 3.777-3.89 3.777m1.65-4.404v1.134h-1.205v1.182h-1.156v-1.182H16.17v-1.134h1.206V10.19h1.156v1.183zM4.246 12.498H7.82v-1.125H4.245v1.125z"
+              />
+            </svg>
+          </div>
+          <div class="skills-name">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="1em"
+              height="1em"
+              viewBox="0 0 256 256"
+            >
+              <path
+                fill="currentColor"
+                fill-rule="evenodd"
+                d="M50.455 102.855c0 25.177 39.647 105.629 77.265 105.629h.001c37.619 0 77.397-76.894 77.397-108.531c0-20.003-18.606-52.373-77.62-52.373c-59.013 0-77.043 35.758-77.043 55.275m50.039 5.634C86.402 93.277 77.656 77.857 77.656 77.857s14.41-7.175 23.824-9.091c.802-.163 1.62-.338 2.458-.516c8.997-1.916 20.189-4.298 36.328 1.496c33.579 12.056 47.896 34.606 47.896 34.606s-21.609-17.401-45.404-20.895c-13.707-2.013-39.203 6.152-39.203 6.152s8.862 9.38 16.075 23.114c1.137 2.165 2.245 4.147 3.306 6.045c5.668 10.137 9.974 17.838 9.974 37.93c0 14.659-11.08 36.443-11.08 36.443s6.223-28.383 1.204-50.825c-3.627-16.223-6.425-18.719-13.02-24.603c-2.528-2.255-5.615-5.008-9.52-9.224"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </div>
+          <div class="skills-name">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="1em"
+              height="1em"
+              viewBox="0 0 50 50"
+            >
+              <path
+                fill="currentColor"
+                fill-rule="evenodd"
+                d="M 28.875 0 C 28.855469 0.0078125 28.832031 0.0195313 28.8125 0.03125 L 0.8125 5.34375 C 0.335938 5.433594 -0.0078125 5.855469 0 6.34375 L 0 43.65625 C -0.0078125 44.144531 0.335938 44.566406 0.8125 44.65625 L 28.8125 49.96875 C 29.101563 50.023438 29.402344 49.949219 29.632813 49.761719 C 29.859375 49.574219 29.996094 49.296875 30 49 L 30 42.5625 C 31.8125 42.847656 33.84375 43 36 43 C 39.671875 43 43.011719 42.546875 45.5 41.78125 C 46.746094 41.398438 47.765625 40.957031 48.5625 40.375 C 49.359375 39.792969 50 38.992188 50 38 L 50 30 C 50.007813 29.9375 50.007813 29.875 50 29.8125 L 50 21 C 50.007813 20.9375 50.007813 20.875 50 20.8125 L 50 12 C 50 11.96875 50 11.9375 50 11.90625 C 50 11.875 50 11.84375 50 11.8125 C 50 11.792969 49.972656 11.769531 49.96875 11.75 C 49.96875 11.738281 49.96875 11.730469 49.96875 11.71875 C 49.863281 10.851563 49.285156 10.152344 48.5625 9.625 C 47.765625 9.042969 46.746094 8.601563 45.5 8.21875 C 43.011719 7.453125 39.671875 7 36 7 C 33.84375 7 31.8125 7.152344 30 7.4375 L 30 1 C 30.003906 0.710938 29.878906 0.4375 29.664063 0.246094 C 29.449219 0.0546875 29.160156 -0.0351563 28.875 0 Z M 28 2.1875 L 28 8.46875 C 27.988281 8.5625 27.988281 8.65625 28 8.75 L 28 15.1875 C 27.984375 15.292969 27.984375 15.394531 28 15.5 L 28 33.1875 C 27.984375 33.292969 27.984375 33.394531 28 33.5 L 28 41.1875 C 27.984375 41.292969 27.984375 41.394531 28 41.5 L 28 47.8125 L 2 42.84375 L 2 7.15625 Z M 36 9 C 39.507813 9 42.691406 9.441406 44.90625 10.125 C 46.015625 10.464844 46.855469 10.875 47.375 11.25 C 47.894531 11.625 48 11.886719 48 12 C 48 12.113281 47.894531 12.375 47.375 12.75 C 46.855469 13.125 46.015625 13.535156 44.90625 13.875 C 42.691406 14.558594 39.507813 15 36 15 C 33.8125 15 31.777344 14.800781 30 14.5 L 30 9.5 C 31.777344 9.199219 33.8125 9 36 9 Z M 48 14.75 L 48 20.8125 C 47.992188 20.875 47.992188 20.9375 48 21 C 48 21.113281 47.894531 21.375 47.375 21.75 C 46.855469 22.125 46.015625 22.535156 44.90625 22.875 C 42.691406 23.558594 39.507813 24 36 24 C 33.820313 24 31.773438 23.824219 30 23.53125 L 30 16.5625 C 31.8125 16.847656 33.84375 17 36 17 C 39.671875 17 43.011719 16.546875 45.5 15.78125 C 46.460938 15.484375 47.304688 15.152344 48 14.75 Z M 16.375 14.84375 C 15.011719 14.949219 13.671875 15.027344 12.3125 15.125 C 10.621094 21.261719 8.828125 27.394531 7.125 33.53125 C 8.261719 33.605469 9.421875 33.660156 10.5625 33.75 C 10.917969 32.375 11.25 31.007813 11.59375 29.625 C 13.375 29.710938 15.179688 29.773438 16.96875 29.78125 C 17.355469 31.230469 17.738281 32.699219 18.09375 34.15625 C 19.429688 34.277344 20.777344 34.378906 22.125 34.46875 C 20.195313 27.933594 18.328125 21.371094 16.375 14.84375 Z M 14.1875 18.3125 C 14.710938 21.074219 15.523438 23.773438 16.1875 26.5 C 14.898438 26.492188 13.625 26.480469 12.34375 26.46875 C 12.933594 23.742188 13.796875 21.082031 14.1875 18.3125 Z M 48 23.75 L 48 29.8125 C 47.992188 29.875 47.992188 29.9375 48 30 C 48 30.113281 47.894531 30.375 47.375 30.75 C 46.855469 31.125 46.015625 31.535156 44.90625 31.875 C 42.691406 32.558594 39.507813 33 36 33 C 33.816406 33 31.777344 32.796875 30 32.5 L 30 25.5625 C 31.820313 25.847656 33.839844 26 36 26 C 39.671875 26 43.011719 25.546875 45.5 24.78125 C 46.460938 24.484375 47.304688 24.152344 48 23.75 Z M 48 32.75 L 48 38 C 48 38.113281 47.894531 38.375 47.375 38.75 C 46.855469 39.125 46.015625 39.535156 44.90625 39.875 C 42.691406 40.558594 39.507813 41 36 41 C 33.8125 41 31.777344 40.800781 30 40.5 L 30 34.5625 C 31.816406 34.847656 33.84375 35 36 35 C 39.671875 35 43.011719 34.546875 45.5 33.78125 C 46.460938 33.484375 47.304688 33.152344 48 32.75 Z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </div>
+          <div class="skills-name">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="1em"
+              height="1em"
+              viewBox="0 0 50 50"
+            >
+              <path
+                fill="currentColor"
+                fill-rule="evenodd"
+                d="M 28.875 0 C 28.855469 0.0078125 28.832031 0.0195313 28.8125 0.03125 L 0.8125 5.34375 C 0.335938 5.433594 -0.0078125 5.855469 0 6.34375 L 0 43.65625 C -0.0078125 44.144531 0.335938 44.566406 0.8125 44.65625 L 28.8125 49.96875 C 29.101563 50.023438 29.402344 49.949219 29.632813 49.761719 C 29.859375 49.574219 29.996094 49.296875 30 49 L 30 44 L 47 44 C 48.09375 44 49 43.09375 49 42 L 49 8 C 49 6.90625 48.09375 6 47 6 L 30 6 L 30 1 C 30.003906 0.710938 29.878906 0.4375 29.664063 0.246094 C 29.449219 0.0546875 29.160156 -0.0351563 28.875 0 Z M 28 2.1875 L 28 6.6875 C 27.941406 6.882813 27.941406 7.085938 28 7.28125 L 28 42.8125 C 27.972656 42.945313 27.972656 43.085938 28 43.21875 L 28 47.8125 L 2 42.84375 L 2 7.15625 Z M 30 8 L 47 8 L 47 42 L 30 42 L 30 37 L 44 37 L 44 35 L 30 35 L 30 29 L 44 29 L 44 27 L 30 27 L 30 22 L 44 22 L 44 20 L 30 20 L 30 15 L 44 15 L 44 13 L 30 13 Z M 4.625 15.65625 L 8.4375 34.34375 L 12.1875 34.34375 L 14.65625 22.375 C 14.769531 21.824219 14.875 21.101563 14.9375 20.25 L 14.96875 20.25 C 14.996094 21.023438 15.058594 21.75 15.1875 22.375 L 17.59375 34.34375 L 21.21875 34.34375 L 25.0625 15.65625 L 21.75 15.65625 L 19.75 28.125 C 19.632813 28.828125 19.558594 29.53125 19.53125 30.21875 L 19.5 30.21875 C 19.433594 29.339844 19.367188 28.679688 19.28125 28.21875 L 16.90625 15.65625 L 13.40625 15.65625 L 10.78125 28.0625 C 10.613281 28.855469 10.496094 29.582031 10.46875 30.25 L 10.40625 30.25 C 10.367188 29.355469 10.308594 28.625 10.21875 28.09375 L 8.1875 15.65625 Z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </div>
+          <div class="skills-name">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="1em"
+              height="1em"
+              viewBox="0 0 50 50"
+            >
+              <path
+                fill="currentColor"
+                fill-rule="evenodd"
+                d="M 28.875 0 C 28.855469 0.0078125 28.832031 0.0195313 28.8125 0.03125 L 0.8125 5.34375 C 0.335938 5.433594 -0.0078125 5.855469 0 6.34375 L 0 43.65625 C -0.0078125 44.144531 0.335938 44.566406 0.8125 44.65625 L 28.8125 49.96875 C 29.101563 50.023438 29.402344 49.949219 29.632813 49.761719 C 29.859375 49.574219 29.996094 49.296875 30 49 L 30 44 L 47 44 C 48.09375 44 49 43.09375 49 42 L 49 8 C 49 6.90625 48.09375 6 47 6 L 30 6 L 30 1 C 30.003906 0.710938 29.878906 0.4375 29.664063 0.246094 C 29.449219 0.0546875 29.160156 -0.0351563 28.875 0 Z M 28 2.1875 L 28 6.53125 C 27.867188 6.808594 27.867188 7.128906 28 7.40625 L 28 42.8125 C 27.972656 42.945313 27.972656 43.085938 28 43.21875 L 28 47.8125 L 2 42.84375 L 2 7.15625 Z M 30 8 L 47 8 L 47 42 L 30 42 L 30 37 L 34 37 L 34 35 L 30 35 L 30 29 L 34 29 L 34 27 L 30 27 L 30 22 L 34 22 L 34 20 L 30 20 L 30 15 L 34 15 L 34 13 L 30 13 Z M 36 13 L 36 15 L 44 15 L 44 13 Z M 6.6875 15.6875 L 12.15625 25.03125 L 6.1875 34.375 L 11.1875 34.375 L 14.4375 28.34375 C 14.664063 27.761719 14.8125 27.316406 14.875 27.03125 L 14.90625 27.03125 C 15.035156 27.640625 15.160156 28.054688 15.28125 28.28125 L 18.53125 34.375 L 23.5 34.375 L 17.75 24.9375 L 23.34375 15.6875 L 18.65625 15.6875 L 15.6875 21.21875 C 15.402344 21.941406 15.199219 22.511719 15.09375 22.875 L 15.0625 22.875 C 14.898438 22.265625 14.710938 21.722656 14.5 21.28125 L 11.8125 15.6875 Z M 36 20 L 36 22 L 44 22 L 44 20 Z M 36 27 L 36 29 L 44 29 L 44 27 Z M 36 35 L 36 37 L 44 37 L 44 35 Z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </div>
+          <div class="skills-name"><i class="fa-brands fa-html5"></i></div>
+          <div class="skills-name">
+            <i class="fa-brands fa-css3-alt"></i>
+          </div>
+          <div class="skills-name">
+            <i class="fa-brands fa-js"></i>
+          </div>
+          <div class="skills-name"><i class="fa-brands fa-php"></i></div>
+          <div class="skills-name">
+            <i class="fa-solid fa-database"></i>
+          </div>
+          <div class="skills-name">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="1em"
+              height="1em"
+              viewBox="0 0 32 32"
+              fill="currentColor"
+            >
+              <path
+                fill="currentColor"
+                fill-rule="evenodd"
+                d="M13.473 23.948c-.311-.053-.639-.2-.82-.365a.702.702 0 0 1-.198-.487c0-.18.09-.44.242-.696a2.2 2.2 0 0 0 .209-.465c.03-.113.096-.3.147-.417l.091-.212.024-1.436c.013-.79.037-1.526.053-1.638a4.94 4.94 0 0 1 .253-.962l.084-.209-.123-.073c-.115-.069-.21-.168-.58-.608-.457-.54-1.057-.836-1.908-.94a16 16 0 0 0-.84-.057c-1.252-.058-1.966-.319-2.61-.952-.48-.474-.731-1.025-.833-1.836-.138-1.098-.29-1.663-.57-2.12a2.035 2.035 0 0 0-.237-.315l-.114-.113-.25.16c-.139.088-.329.203-.423.255a8.301 8.301 0 0 0-.896.571c-.696.507-1.459 1.142-1.877 1.562-.188.188-.287.267-.327.262-.288-.043-.066-1.28.396-2.21.595-1.197 1.593-2.303 2.752-3.051.95-.613 2.485-1.456 3.196-1.753 1.26-.527 2.892-1.098 4.01-1.403.236-.064.381-.122.477-.19.22-.153.434-.225.681-.23.206-.003.226-.01.425-.14.235-.152.302-.162.538-.08l.154.055.187-.127.188-.127.27.006c.205.004.299-.007.387-.046.114-.05.118-.056.15-.245.072-.406.08-.61.037-.854-.058-.324-.063-1.584-.008-1.829.059-.266.097-.319.295-.417.297-.147.519-.188 1.032-.188.624 0 .94.084 1.174.31.212.206.248.68.137 1.8-.064.642-.072.823-.055 1.244.01.271.027.524.037.561.017.065.032.069.259.074.221.004.26.014.471.125.204.106.356.234.386.325.006.02.04.021.104.003.118-.035.225.003.309.109.051.065.083.078.203.078.16 0 .216.038.349.234a.598.598 0 0 0 .246.2c.22.11.515.414.63.654.175.362.212.777.101 1.154-.04.14-.04.145.042.282.174.29.237.65.167.954l-.041.18.118.117c.583.583.497 1.531-.215 2.38-.076.09-.165.232-.198.318-.14.363-.294.618-.499.828l-.204.21h-.214c-.21 0-.505-.07-.685-.165-.075-.039-.08-.038-.065.01.05.172.164.87.205 1.255.063.594.044 1.458-.04 1.829a2.85 2.85 0 0 1-.297.785c-.076.126-.083.155-.066.304.024.217-.027.576-.115.813-.104.277-.143.407-.166.546-.02.122-.02.123.066.123.115 0 .175.068.175.199 0 .06-.05.374-.112.7-.171.908-.182 1.013-.184 1.895-.003.909-.004.902.204 1.037l.464.302a6.37 6.37 0 0 0 1.276.656c.653.258.743.324.743.544 0 .095-.019.133-.1.211-.252.243-.744.297-1.737.192a16.668 16.668 0 0 0-1.55-.075c-1.365-.02-1.567-.067-1.745-.408-.102-.195-.084-.45.059-.868a5.86 5.86 0 0 0 .163-.56c.093-.455.03-.993-.188-1.604l-.185-.518c-.186-.528-.286-1.494-.176-1.712.02-.04.054-.05.146-.044l.119.01.096-.204c.075-.158.158-.264.38-.488l.285-.286-.014-.182c-.014-.174-.243-1.027-.276-1.025-.009 0-.073.088-.144.195-.17.258-.552.658-.766.802-.094.064-.172.137-.172.162-.002.103-.094.31-.201.455-.106.143-.113.163-.097.29.024.183-.033.773-.104 1.08a3.482 3.482 0 0 1-.257.665c-.27.56-.472 1.058-.525 1.29a5.534 5.534 0 0 0-.068.673c-.013.264-.04.524-.06.577-.026.075-.027.132-.002.246.018.082.03.266.027.41-.004.2.012.33.07.564.1.397.122.647.073.796-.03.092-.064.129-.166.18-.237.12-.899.185-1.259.123zm.95-.318c.137-.039.252-.159.252-.263 0-.045-.04-.183-.087-.306-.09-.23-.254-.837-.254-.938 0-.054.004-.055.085-.012l.085.045-.002-.11a1.326 1.326 0 0 0-.064-.295c-.074-.223-.084-.228-.554-.254l-.322-.017-.115.113a1.03 1.03 0 0 0-.169.22c-.052.103-.072.255-.038.29.008.009.085 0 .17-.02a.755.755 0 0 1 .155-.029c0 .005-.086.073-.192.151-.47.348-.633.564-.633.837 0 .286.266.508.688.574.29.046.854.054.995.014zm6.354-.465c.117-.142.103-.285-.046-.45a1.223 1.223 0 0 0-.292-.22 3.668 3.668 0 0 1-.328-.195c-.086-.06-.362-.22-.612-.36a8.634 8.634 0 0 1-.527-.306l-.07-.055v-1.075c0-1.06-.002-1.073-.058-1.058-.273.075-.726.109-1.302.098l-.619-.01.088.218c.167.416.254.97.253 1.606 0 .238-.014.475-.041.708-.041.345-.09.634-.181.924a4.593 4.593 0 0 1-.066.143c-.235.51-.735.883-1.224.883-.342 0-.669-.182-.877-.482-.295-.464-.496-.926-.591-1.436-.074-.397-.12-.826-.196-1.206a8.918 8.918 0 0 0-.09-.357c-.002-.005-.012-.037-.024-.068a.618.618 0 0 1-.155.083c-.034.015-.047.02-.046.01.012-.265.154-.702.314-1.046.074-.135.233-.351.414-.466.306-.213.649-.318 1.069-.318.008 0 .03.002.036 0 .02-.027.058-.046.108-.046.19 0 .346.192.41.442.04.156.086.421.079.63-.005.156-.009.428-.008.54.016 3.905-.106 4.245.202 4.663.163.362.604.618 1.129.618.52 0 1.02-.174 1.53-.576zm-.042-7.928a1.8 1.8 0 0 1-2.371.62 1.839 1.839 0 0 1-1.024-1.64c0-.51.19-1 .527-1.367a1.85 1.85 0 0 1 1.367-.527 1.8 1.8 0 0 1 2.371 2.371zm-4.121-.126c-.687.564-1.366.625-1.717.246-.152-.15-.253-.415-.289-.674-.054-.42-.041-.858.055-1.197.069-.339.246-.662.506-.935.474-.469 1.073-.753 1.748-.753.327 0 .643.05.935.146.31.1.604.24.872.417.157.098.394.239.5.337.139.131.246.301.317.487.075.193.075.308.075.367 0 .143.028.43-.098.615-.114.154-.347.222-.628.178a.725.725 0 0 1-.557-.287c-.298-.336-.479-.781-.5-1.264-.018-.473.014-.885.121-1.173.095-.25.251-.47.465-.629.1-.075.21-.136.322-.185.46-.213.951-.347 1.472-.347 1.414 0 2.594.623 2.594 1.513 0 .27-.069.571-.173.793-.178.389-.48.718-.868.98a.254.254 0 0 1-.095.04z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </div>
+          <div class="skills-name">
+            <i class="fa-brands fa-wordpress"></i>
+          </div>
+          <div class="skills-name">
+            <i class="fa-brands fa-bootstrap"></i>
+          </div>
+          <div class="skills-name"><i class="fa-brands fa-sass"></i></div>
+        </div>
+      </section>
+
+      <!-- contact me  -->
+      <section class="contact section" id="contact">
+        <h2 class="section-title">Contactez-moi</h2>
+        <span class="section-subtitle"
+          >Vous souhaitez discuter d'un projet ou simplement échanger un mot ?
+          N'hésitez pas à me contacter!</span
+        >
+
+        <div class="contact-container container grid">
+          <div>
+            <div class="contact-info">
+              <i class="fa-regular fa-envelope contact-icon"></i>
+              <div>
+                <h3 class="contact-title">Courriel</h3>
+                <a
+                  href="mailto:prethiah@gmail.com"
+                  target="_blank"
+                  class="contact-subtitle"
+                  >prethiah@gmail.com</a
+                >
+              </div>
+            </div>
+            <div class="contact-info">
+              <i class="fa-brands fa-linkedin-in contact-icon"></i>
+              <div>
+                <h3 class="contact-title">Linkedin</h3>
+                <a
+                  class="contact-subtitle"
+                  href="https://www.linkedin.com/in/prethiah/"
+                  target="_blank"
+                  >@prethiah</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- footer  -->
+      <footer class="footer">
+        <div class="footer-bg">
+          <div class="footer-container container grid">
+            <div>
+              <a href="index.html"
+                ><h1 class="footer-title">Prethiah Rajaratnam</h1></a
+              >
+            </div>
+            <ul class="footer-links">
+              <li>
+                <a href="#home" class="footer-link">Accueil</a>
+              </li>
+              <li>
+                <a href="#about" class="footer-link">Propos</a>
+              </li>
+
+              <li>
+                <a href="#skills" class="footer-link">Compétences</a>
+              </li>
+              <li>
+                <a href="#portfolio" class="footer-link">Portfolio</a>
+              </li>
+            </ul>
+
+            <div class="footer-socials">
+              <a
+                href="https://www.linkedin.com/in/prethiah/"
+                target="_blank"
+                class="footer-social"
+              >
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a
+                href="https://www.behance.net/prethiah"
+                target="_blank"
+                target="_blank"
+                class="footer-social"
+              >
+                <i class="fa-brands fa-behance"></i>
+              </a>
+              <a
+                href="https://github.com/rprethi"
+                target="_blank"
+                class="footer-social"
+              >
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <script src="Libraries/swiper-bundle.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/9b634c15bd.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+    <script src="scriptmain.js"></script>
+  </body>
+</html>

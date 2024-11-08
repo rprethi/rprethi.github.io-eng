@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<!-- Langue en francais -->
+<html lang="fr">
+  <head>
+    <!-- Ajout viewport -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Polaris" />
+
+    <!-- Police de caractère -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      defer
+      href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Feuilles de styles CSS -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+
+    <!-- Titre de page et le favicon -->
+    <title>L'aventure de Polaris</title>
+    <link rel="icon" type="image/png" href="img/favicon.ico" />
+  </head>
+  <!-- ---------- Début Écran d'introduction -------- -->
+  <body>
+    <header id="introduction" class="introduction">
+      <!-- Titre de l'histoire -->
+      <div class="intro-texte">
+        <h1>L'aventure de Polaris</h1>
+      </div>
+      <!-- Ajout appel à l'action -->
+      </div>
+      <!-- ---------- Fin Écran d'introduction ---------- -->
+
+      <!-- Informations sur le projet + auteurs -->
+      <p class="info-projet">
+        <i>L'aventure de Polaris</i>, une histoire créée par Prethiah Rajaratnam
+        et Sitmonternna Yi, est une fascinante exploration inspirée des
+        constellations d'étoiles.
+        <br />
+        Au cœur de cette histoire se trouve un petit garçon qui, plongé dans le
+        monde des rêves, se retrouve soudainement transporté dans l'univers des
+        constellations. Accompagné d'une étoile lumineuse, il entame alors une
+        aventure extraordinaire à travers ce monde céleste, rempli de mystères
+        et de merveilles!
+      </p>
+    </header>
+    <main>
+      <!-- Sections par chapitres -->
+      <!-- ---------- Début Chapitre 1 ------------------ -->
+      <section id="chapitre1" class="chap">
+        <div class="text-chapitre">
+          <p>
+            Pendant son sommeil, Polaris rêve de voyager dans l'espace parmi les
+            étoiles, découvrant un monde enchanté avec des astres vivants et des
+            créatures célestes mystérieuses.
+          </p>
+        </div>
+        <p class="numero-chapitre">1</p>
+        <!-- ---------- Élements du Chapitre 1 ------------------ -->
+        <div class="constellation" id="constellation">
+          <img
+            class="poisson"
+            src="./img/img_elements_visuels/constellations/daulphin.png"
+            alt="daulphin"
+            loading="lazy"
+          />
+          <img
+            class="chien"
+            src="./img/img_elements_visuels/constellations/chien.png"
+            alt="chien"
+            loading="lazy"
+          />
+          <img
+            class="draco"
+            src="./img/img_elements_visuels/constellations/draco.png"
+            alt="draco"
+            loading="lazy"
+          />
+          <img
+            class="orion"
+            src="./img/img_elements_visuels/constellations/orion.png"
+            alt="orion"
+            loading="lazy"
+          />
+          <img
+            class="perseus"
+            src="./img/img_elements_visuels/constellations/perseus.png"
+            alt="perseus"
+            loading="lazy"
+          />
+          <img
+            class="major"
+            src="./img/img_elements_visuels/constellations/ursamajor.png"
+            alt="major"
+            loading="lazy"
+          />
+        </div>
+        <img
+          class="lune"
+          id="lune"
+          src="./img/img_elements_visuels/lune.png"
+          alt="lune"
+          loading="lazy"
+        />
+        <img
+          class="polaris-dort-debut"
+          id="polaris-dort-debut"
+          src="./img/img_personnages/dormir_gauche.png"
+          alt="polaris endormit du côté gauche"
+          loading="lazy"
+        />
+        <div class="lit-complet">
+          <img
+            class="lit-cadre"
+            id="lit-cadre"
+            src="./img/img_elements_visuels/lit/cardre_lit.png"
+            alt="le cardre du lit"
+            loading="lazy"
+          />
+          <img
+            class="lit-couverture"
+            id="lit-couverture"
+            src="./img/img_elements_visuels/lit/couverture.png"
+            alt="la couverture du lit"
+            loading="lazy"
+          />
+        </div>
+        <!-- ---------- Technique Gasp utilisée -------------------- -->
+        <ul class="technique-gsap">
+          <li>
+            scrollTrigger
+            <ul>
+              <li>Compostion des éléments du lit + Polaris</li>
+              <li>Translation Y de la lune</li>
+              <li>Changement opacité texte chapitre</li>
+              <li>Translation et opacité y pour les constellations</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+      <!-- ---------- Fin Chapitre 1 -------------------- -->
+
+      <!-- ---------- Début Chapitre 2 ------------------ -->
+      <section id="chapitre2" class="chap">
+        <div class="text-chapitre">
+          <p>
+            Au réveil, Polaris trouve qu'il est loin de chez lui, accompagné
+            d'une étoile brillante nommée Muscida, qui lui promet de
+            l'accompagner dans son périple à travers ce monde enchanté.
+          </p>
+        </div>
+        <p class="numero-chapitre">2</p>
+        <img
+          class="etoile"
+          id="etoile"
+          src="./img/img_elements_visuels/etoile.png"
+          alt="L'étoile guide de Polaris"
+          loading="lazy"
+        />
+        <img
+          class="polaris-lit-assis"
+          id="polaris-lit-assis"
+          src="./img/img_personnages/assis_coucher.png"
+          alt="Polaris assis sur le lit"
+          loading="lazy"
+        />
+        <img
+          class="lit-chapitre-deux"
+          id="lit-chapitre-deux"
+          src="./img/img_elements_visuels/lit/lit_complet.png"
+          alt="Le lit au complet"
+          loading="lazy"
+        />
+        <!-- ---------- Technique Gasp utilisée -------------------- -->
+        <ul class="technique-gsap">
+          <li>Changement d'opacité: Polaris + lit</li>
+          <li>Changement d'échelle étoile</li>
+          <li>Changement opacité texte chapitre</li>
+          <li>
+            scrollTrigger
+            <ul>
+              <li>
+                joue en entrant et à l'envers si on revient (haut dans la page)
+              </li>
+              <li>
+                se complète après avoir passéet revient au début si on remonte
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+      <!-- ---------- Fin Chapitre 2 -------------------- -->
+
+      <!-- ---------- Début Chapitre 3 ------------------ -->
+      <section id="chapitre3" class="chap">
+        <div class="text-chapitre">
+          <p>
+            Après sa rencontre avec Muscida, étoile bienveillante, Polaris
+            trouve en elle son guide à travers les constellations vivantes.
+          </p>
+        </div>
+        <p class="numero-chapitre">3</p>
+        <img
+          class="etoile-avancement"
+          id="etoile-avancement"
+          src="./img/img_elements_visuels/etoile.png"
+          alt="l'étoile s'avance"
+          loading="lazy"
+        />
+        <img
+          class="debout-polaris"
+          id="debout-polaris"
+          src="./img/img_personnages/joie_droit.png"
+          alt="Polaris est debout"
+          loading="lazy"
+        />
+        <img
+          class="lit-chapitre-trois"
+          id="lit-chapitre-trois"
+          src="./img/img_elements_visuels/lit/lit_complet.png"
+          alt="Le lit au complet"
+          loading="lazy"
+        />
+        <svg
+          id="trace"
+          data-name="Calque 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 917.89 150.79"
+        >
+          <path
+            class="trace"
+            d="m.31,129C44.27,94.47,120.45,43.93,226.55,17.71,270.05,6.95,309.71-2.85,360.05,1.6c134.93,11.93,174.7,111.08,287,140.76,58.72,15.52,146.03,14.36,270.59-60.37"
+          />
+        </svg>
+
+        <!-- ---------- Technique Gasp utilisée -------------------- -->
+        <ul class="technique-gsap">
+          <li>Motion path de l'étoile</li>
+          <li>
+            scrollTrigger
+            <ul>
+              <li>Changement opacité: Polaris + lit</li>
+              <li>Changement opacité texte chapitre</li>
+              <li>Translation Polaris en Y (loop)</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+      <!-- ---------- Fin Chapitre 3 -------------------- -->
+
+      <!-- ---------- Début Chapitre 4 ------------------ -->
+      <section id="chapitre4" class="chap">
+        <div class="text-chapitre">
+          <p>Polaris tombe dans un trou <strong>invisible.</strong></p>
+        </div>
+        <p class="numero-chapitre">4</p>
+        <img
+          class="nuage"
+          id="nuage"
+          src="./img/img_elements_visuels/paralaxe_nuages/nuage_01.svg"
+          alt="nuage"
+          loading="lazy"
+        />
+        <img
+          class="nuage01"
+          id="nuage01"
+          src="./img/img_elements_visuels/paralaxe_nuages/nuage_02.svg"
+          alt="nuage"
+          loading="lazy"
+        />
+        <img
+          class="nuage02"
+          id="nuage02"
+          src="./img/img_elements_visuels/paralaxe_nuages/nuage_03.svg"
+          alt="nuage"
+          loading="lazy"
+        />
+        <img
+          class="polaris-tomber"
+          id="polaris-tomber"
+          src="./img/img_personnages/tomber_gauche.png"
+          alt="nuage"
+          loading="lazy"
+        />
+
+        <!-- ---------- Technique Gasp utilisée -------------------- -->
+        <ul class="technique-gsap">
+          <li>
+            scrollTrigger
+            <ul>
+              <li>Paralaxe nuages 1,2 et 3</li>
+              <li>Polaris translation rotation Y</li>
+              <li>Paralaxe Background</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+      <!-- ---------- Fin Chapitre 4 -------------------- -->
+
+      <!-- ---------- Début Chapitre 5 ------------------ -->
+      <section id="chapitre5" class="chap">
+        <div class="text-chapitre">
+          <p>
+            En avançant, Polaris croise l'ombre, une entité malveillante qui
+            menace d'éteindre les étoiles et plonger le monde dans
+            <strong>l'obscurité.</strong>
+          </p>
+        </div>
+        <p class="numero-chapitre">5</p>
+        <!-- Spritesheet météorite à ajouter -->
+        <div class="spritesheet">
+          <div class="sprite2" id="sprite2"></div>
+        </div>
+        <div class="spritesheet">
+          <div class="sprite1"></div>
+        </div>
+        <!-- ---------- Technique Gasp utilisée -------------------- -->
+        <ul class="technique-gsap">
+          <li>
+            scrollTrigger
+            <ul>
+              <li>Translation X Polaris</li>
+              <li>Spritesheet météorite</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+      <!-- ---------- Fin Chapitre 5 -------------------- -->
+
+      <!-- ---------- Début Chapitre 6 ------------------ -->
+      <section id="chapitre6" class="chap">
+        <div class="text-chapitre">
+          <p>
+            Avec bravoure, détermination et l'aide de Muscida, Polaris triomphe
+            de l'ombre, ramenant la brillance aux étoiles, symbolisant la
+            victoire de la lumière.
+          </p>
+        </div>
+        <p class="numero-chapitre">6</p>
+        <div class="spritesheet">
+          <div class="sprite2" id="sprite2"></div>
+        </div>
+        <div class="mot-encouragant" id="mot-encouragant">
+          <p>Détermination</p>
+          <p>Audace</p>
+          <p>Courage</p>
+        </div>
+        <img
+          class="polaris-peur"
+          id="polaris-peur"
+          src="./img/img_personnages/peur_polaris/peur_yeux_ferme.png"
+          alt="Peur Milleu Polaris"
+          loading="lazy"
+        />
+        <img
+          class="etoile-peur"
+          id="etoile-peur"
+          src="./img/img_elements_visuels/etoile.png"
+          alt="etoile"
+          loading="lazy"
+        />
+        <!-- ---------- Technique Gasp utilisée -------------------- -->
+        <ul class="technique-gsap">
+          <li>Étoile loop axe Y</li>
+          <li>
+            scrollTrigger
+            <ul>
+              <li>Apparition des mots: opacité</li>
+              <li>Changement d'opacité Polaris</li>
+              <li>Changement opacité texte chapitre</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+      <!-- ---------- Fin Chapitre 6 -------------------- -->
+
+      <!-- ---------- Début Chapitre 7 ------------------ -->
+      <section id="chapitre7" class="chap">
+        <div class="text-chapitre">
+          <p>
+            Après leur triomphe, Polaris et Muscida dansent joyeusement. Muscida
+            révèle sa vraie forme, devenant la constellation de la
+            <strong>Grande Ourse.</strong>
+          </p>
+        </div>
+        <p class="numero-chapitre">7</p>
+        <img
+          class="polaris-joie"
+          id="polaris-joie"
+          src="./img/img_personnages/joie_gauche.png"
+          alt="danse de joie fin"
+          loading="lazy"
+        />
+        <img
+          class="etoile-ours"
+          id="etoile-ours"
+          src="./img/img_elements_visuels/etoile.png"
+          alt="etoile"
+          loading="lazy"
+        />
+        <img
+          class="petit-ours-coeur"
+          id="petit-ours-coeur"
+          src="./img/img_elements_visuels/ours_petit/petit_ours_coeur.svg"
+          alt="petit ours coeur"
+          loading="lazy"
+        />
+        <!-- 
+        <svg
+          id="svg2"
+          viewBox="0 0 1440 1024"
+          style="enable-background: new 0 0 1440 1024"
+        >
+          <path
+            id="etoile"
+            class="st1"
+            d="M701.004 275.68C707.039 257.355 732.961 257.355 738.996 275.68L782.379 407.405C785.08 415.607 792.74 421.149 801.375 421.149H941.183C960.623 421.149 968.635 446.079 952.835 457.404L840.195 538.144C833.09 543.236 830.116 552.353 832.85 560.655L875.984 691.626C882.037 710.005 861.063 725.411 845.336 714.138L731.652 632.65C724.686 627.657 715.314 627.657 708.348 632.65L594.664 714.138C578.937 725.411 557.963 710.005 564.016 691.626L607.15 560.655C609.884 552.353 606.91 543.236 599.805 538.144L487.165 457.404C471.365 446.079 479.377 421.149 498.817 421.149H638.625C647.26 421.149 654.92 415.607 657.621 407.405L701.004 275.68Z"
+          />
+          <path
+            id="coeur"
+            class="st1"
+            d="M484.477 357.66C372.841 534.929 712.822 728.314 722.971 731C758.491 724.554 854.481 641.47 898.036 600.734C947.934 548.359 1025.91 422.122 938.631 336.173C851.352 250.224 758.492 314.685 722.971 357.66C609.306 240.555 516.614 308.866 484.477 357.66Z
+          "
+          />
+        </svg> -->
+
+        <!-- ---------- Technique Gasp utilisée -------------------- -->
+        <ul class="technique-gsap">
+          <li>Motion Path étoile-coeur</li>
+          <li>
+            scrollTrigger
+            <ul>
+              <li>Changement grandeur: étoile</li>
+              <li>Changement d'opacité Polaris</li>
+              <li>Changement d'opacité petit ours</li>
+              <li>Changement opacité texte chapitre</li>
+            </ul>
+          </li>
+        </ul>
+        <!-- ---------- Fin Chapitre 7 -------------------- -->
+
+        <!-- ---------- Début Chapitre 8 ------------------ -->
+      </section>
+      <section id="chapitre8" class="chap">
+        <div class="text-chapitre">
+          <p>
+            À son réveil, Polaris découvre que son rêve n'était pas seulement
+            imaginaire mais aussi une inspiration pour sa vie.
+          </p>
+        </div>
+        <p class="numero-chapitre">8</p>
+        <div class="constellation-fin" id="constellation-fin">
+          <img
+            class="poisson"
+            src="./img/img_elements_visuels/constellations/daulphin.png"
+            alt="daulphin"
+            loading="lazy"
+          />
+          <img
+            class="chien"
+            src="./img/img_elements_visuels/constellations/chien.png"
+            alt="chien"
+            loading="lazy"
+          />
+          <img
+            class="draco"
+            src="./img/img_elements_visuels/constellations/draco.png"
+            alt="draco"
+            loading="lazy"
+          />
+          <img
+            class="orion"
+            src="./img/img_elements_visuels/constellations/orion.png"
+            alt="orion"
+            loading="lazy"
+          />
+          <img
+            class="perseus"
+            src="./img/img_elements_visuels/constellations/perseus.png"
+            alt="perseus"
+            loading="lazy"
+          />
+          <img
+            class="major"
+            src="./img/img_elements_visuels/constellations/ursamajor.png"
+            alt="major"
+            loading="lazy"
+          />
+        </div>
+        <img
+          class="polaris-dort-fin"
+          id="polaris-dort-fin"
+          src="./img/img_personnages/dormir_gauche.png"
+          alt="polaris endormit du côté gauche"
+          loading="lazy"
+        />
+        <div class="lit-complet-fin" id="lit-complet-fin">
+          <img
+            class="lit-cadre-fin"
+            id="lit-cadre-fin"
+            src="./img/img_elements_visuels/lit/cardre_lit.png"
+            alt="le cardre du lit"
+            loading="lazy"
+          />
+          <img
+            class="lit-couverture-fin"
+            id="lit-couverture-fin"
+            src="./img/img_elements_visuels/lit/couverture.png"
+            alt="la couverture du lit"
+            loading="lazy"
+          />
+        </div>
+        <svg
+          version="1.1"
+          id="svg-z1"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          x="0px"
+          y="0px"
+          viewBox="0 0 1440 1024"
+          xmlns="http://www.w3.org/2000/svg"
+          style="enable-background: new 0 0 700 700"
+          xml:space="preserve"
+          fill="none"
+        >
+          <g>
+            <path
+              stroke-width="2"
+              class="path-z1"
+              d="M624.19 306.626C556.19 301.826 523.19 334.626 515.19 351.626C510.19 358.959 503.19 386.026 515.19 435.626C527.19 485.226 592.857 491.626 624.19 488.626L509.19 645.626C483.19 735.626 546.19 749.626 567.19 755.626C588.19 761.626 657.19 752.626 726.19 755.626C795.19 758.626 908.19 760.626 920.19 708.626C932.19 656.626 925.19 619.626 889.19 593.626C860.39 572.826 806.523 575.626 783.19 579.626L908.19 417.626C932.19 361.626 901.523 330.293 883.19 321.626C857.19 291.626 709.19 312.626 624.19 306.626Z"
+              stroke="#8A90AA"
+              stroke-width="25"
+            />
+          </g>
+        </svg>
+        <svg
+          version="1.1"
+          id="svg-z1"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          x="0px"
+          y="0px"
+          viewBox="0 0 1440 1024"
+          xmlns="http://www.w3.org/2000/svg"
+          style="enable-background: new 0 0 700 700"
+          xml:space="preserve"
+          fill="none"
+        >
+          <g>
+            <path
+              stroke-width="2"
+              class="path-z1"
+              d="M624.19 306.626C556.19 301.826 523.19 334.626 515.19 351.626C510.19 358.959 503.19 386.026 515.19 435.626C527.19 485.226 592.857 491.626 624.19 488.626L509.19 645.626C483.19 735.626 546.19 749.626 567.19 755.626C588.19 761.626 657.19 752.626 726.19 755.626C795.19 758.626 908.19 760.626 920.19 708.626C932.19 656.626 925.19 619.626 889.19 593.626C860.39 572.826 806.523 575.626 783.19 579.626L908.19 417.626C932.19 361.626 901.523 330.293 883.19 321.626C857.19 291.626 709.19 312.626 624.19 306.626Z"
+              stroke="#8A90AA"
+              stroke-width="25"
+            />
+          </g>
+        </svg>
+
+        <svg
+          version="1.1"
+          id="svg-z2"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          x="0px"
+          y="0px"
+          viewBox="0 0 1440 1024"
+          xmlns="http://www.w3.org/2000/svg"
+          style="enable-background: new 0 0 700 700"
+          xml:space="preserve"
+          fill="none"
+        >
+          <g>
+            <path
+              stroke-width="2"
+              class="path-z2"
+              d="M624.19 306.626C556.19 301.826 523.19 334.626 515.19 351.626C510.19 358.959 503.19 386.026 515.19 435.626C527.19 485.226 592.857 491.626 624.19 488.626L509.19 645.626C483.19 735.626 546.19 749.626 567.19 755.626C588.19 761.626 657.19 752.626 726.19 755.626C795.19 758.626 908.19 760.626 920.19 708.626C932.19 656.626 925.19 619.626 889.19 593.626C860.39 572.826 806.523 575.626 783.19 579.626L908.19 417.626C932.19 361.626 901.523 330.293 883.19 321.626C857.19 291.626 709.19 312.626 624.19 306.626Z"
+              stroke="#8A90AA"
+              stroke-width="25"
+            />
+          </g>
+        </svg>
+
+        <svg
+          version="1.1"
+          id="svg-z3"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          x="0px"
+          y="0px"
+          viewBox="0 0 1440 1024"
+          xmlns="http://www.w3.org/2000/svg"
+          style="enable-background: new 0 0 700 700"
+          xml:space="preserve"
+          fill="none"
+        >
+          <g>
+            <path
+              stroke-width="2"
+              class="path-z3"
+              d="M624.19 306.626C556.19 301.826 523.19 334.626 515.19 351.626C510.19 358.959 503.19 386.026 515.19 435.626C527.19 485.226 592.857 491.626 624.19 488.626L509.19 645.626C483.19 735.626 546.19 749.626 567.19 755.626C588.19 761.626 657.19 752.626 726.19 755.626C795.19 758.626 908.19 760.626 920.19 708.626C932.19 656.626 925.19 619.626 889.19 593.626C860.39 572.826 806.523 575.626 783.19 579.626L908.19 417.626C932.19 361.626 901.523 330.293 883.19 321.626C857.19 291.626 709.19 312.626 624.19 306.626Z"
+              stroke="#8A90AA"
+              stroke-width="25"
+            />
+          </g>
+        </svg>
+        <!-- ---------- Technique Gasp utilisée -------------------- -->
+        <ul class="technique-gsap">
+          <li>
+            scrollTrigger
+            <ul>
+              <li>Compostion des élements du lit + Polaris</li>
+              <li>Changement d'opacité Polaris</li>
+              <li>Draw Svg Z</li>
+              <li>Opacité et translation y (constellations)</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+      <!-- ---------- Fin Chapitre 8 -------------------- -->
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/MotionPathPlugin.min.js"></script>
+    <!--   <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/DrawSVGPlugin3.min.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/MorphSVGPlugin3.min.js"></script>-->
+    <script src="script/script.js"></script>
+    <footer>
+      <!-- Footer Crédits -->
+      <div class="credits" id="credits">
+        <p>
+          Projet créé dans le cadre du cours Optimisation Web - Intégration
+          multimédia - Collège Montmorency. © 2024 - Conception : Prethiah
+          Rajaratnam et Sitmonternna Yi | Développement Web : Prethiah
+          Rajaratnam.
+          <br />
+          Aucune Image provenant de sources externes et aucune utilisation de
+          l'outil AI, utilisation de Figma
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

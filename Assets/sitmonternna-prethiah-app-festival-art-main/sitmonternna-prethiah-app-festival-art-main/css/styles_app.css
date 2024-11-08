@@ -1,0 +1,210 @@
+/*---------Styles Generaux------------*/
+
+.mainindex {
+  margin-top: 100px;
+}
+
+/*---------Section header------------*/
+
+.navbar {
+  background-color: var(--bs-light);
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.logo {
+  max-width: 20px;
+  max-height: 20px;
+}
+
+.utilisateur {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/*---------Section Main-----------*/
+
+.artist-photo {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+  border-radius: 50px;
+  margin-right: 25px;
+}
+
+.btn {
+  margin-top: 1rem;
+  border-radius: 50px;
+  font-size: 13px;
+  margin-right: 5px;
+}
+
+/* -------------Section Recherche APP--------*/
+
+.form-control {
+  border-radius: 50px;
+}
+
+.form-control::placeholder {
+  color: var(--bs-dark);
+  font-size: 15px;
+}
+
+.input-group-text {
+  border-radius: 50px;
+  background-color: var(--bs-white);
+}
+
+.input-group {
+  margin-right: 5px;
+}
+
+.bi-search {
+  color: var(--bs-secondary);
+}
+
+/*-------- Section Vedette APP -----------*/
+
+.vedette {
+  overflow: hidden;
+}
+
+.card-vedette {
+  border-radius: 15px;
+}
+
+.card-vedette:hover {
+  background-color: var(--bs-light);
+}
+
+.image-carte {
+  height: 20vh;
+  object-fit: cover;
+  object-position: center;
+}
+
+#en-vedette .card-body {
+  padding: 3%;
+  font-size: 13.5px;
+}
+
+/*------------Section Autres APP-----------*/
+
+a {
+  text-decoration: none;
+}
+
+.card-autre {
+  border-radius: 15px;
+}
+
+.card-autre:hover {
+  background-color: var(--bs-light);
+}
+
+.img-autres {
+  height: 20vh;
+  object-fit: cover;
+  object-position: center;
+}
+
+.bi-calendar {
+  font-size: 15px;
+}
+
+.bi-clock-fill {
+  font-size: 15px;
+}
+
+.bi-chevron-right {
+  font-size: 15px;
+}
+
+/*------------Section Artwork APP-----------*/
+
+.oeuvre-magentaverse {
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+  height: 33vh;
+}
+
+.image-artiste {
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  height: 25vh;
+  object-fit: cover;
+  object-position: 0px 50%;
+}
+
+.carte-ariste {
+  border-radius: 15px;
+}
+
+.accordion-item {
+  border-radius: 15px;
+}
+
+.titre-oeuvre {
+  font-size: 45px;
+  margin-bottom: 0px;
+}
+
+.oeuvre {
+  position: relative;
+  top: -25px;
+  z-index: 1;
+  border-radius: 15px;
+}
+
+.bi-heart-fill {
+  background-color: var(--bs-secondary);
+  font-size: 14px;
+  width: 30px;
+  height: 30px;
+  padding-left: 6.5px;
+  padding-top: 5px;
+  border-radius: 50px;
+  border: none;
+}
+
+.modal-titre {
+  font-size: 20px;
+}
+
+.liked {
+  background-color: var(--bs-light);
+}
+
+/*---------Section pied de page------*/
+
+footer {
+  background-color: var(--bs-light);
+  padding: 1rem;
+}
+
+.tim {
+  filter: grayscale(100%);
+  width: 70px;
+  height: 70px;
+}
+
+/*---------Swipper------*/
+
+.swiper-slide {
+  width: auto;
+}
+
+.swiper {
+  width: auto;
+}

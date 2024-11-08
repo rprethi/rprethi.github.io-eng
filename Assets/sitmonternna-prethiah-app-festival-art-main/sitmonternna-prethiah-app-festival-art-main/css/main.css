@@ -1,0 +1,67 @@
+/*---------Styles Generaux------------*/
+
+:root {
+  --bs-dark: #353535;
+  --bs-light: #d9d9d9;
+  --bs-secondary: #3c6d71;
+  --bs-white: #ffffff;
+  --bs-primary: #284a63;
+}
+
+@font-face {
+  src: url(../asset/font/Quicksand-VariableFont_wght.ttf) format("truetype");
+  font-family: "Quicksand";
+}
+
+* {
+  margin: 0;
+  font-family: "Quicksand";
+}
+
+h1,
+.h1 {
+  font-size: 100px;
+  font-weight: bold;
+  font-family: "Quicksand";
+  color: var(--bs-primary);
+}
+
+h2,
+.h2 {
+  font-size: 30px;
+  font-weight: 800;
+  font-family: "Quicksand";
+  color: var(--bs-dark);
+}
+
+h3,
+.h3 {
+  font-size: 60px;
+  font-weight: 600;
+  font-family: "Quicksand";
+  color: var(--bs-secondary);
+}
+
+h4,
+.h4 {
+  font-size: 40px;
+  font-weight: 400;
+  font-family: "Quicksand";
+  color: var(--bs-dark);
+}
+
+h5,
+.h5 {
+  font-size: 30px;
+  font-weight: 200;
+  font-family: "Quicksand";
+  color: var(--bs-white);
+}
+
+h6,
+.h6 {
+  font-size: 20px;
+  font-weight: 100;
+  font-family: "Quicksand";
+  color: var(--bs-dark);
+}

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac</title>
+    <link rel="icon" type="image/svg" href="./Assets/icon.svg" />
+    <link rel="stylesheet" href="Libraries/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="Css/style.css" />
+  </head>
+  <body class="dark-theme">
+    <!-- header  -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="./index.html" class="nav-logo">
+          <span>prethi</span><img src="./Assets/icon.svg" alt="" />h
+        </a>
+        <div class="nav-menu" id="nav-menu">
+          <ul class="nav-list grid">
+            <li class="nav-item">
+              <a href="./index.html#home" class="nav-link"
+                ><i class="fa-solid fa-house nav-icon"></i> Accueil</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="./index.html#about" class="nav-link"
+                ><i class="fa-solid fa-user nav-icon"></i> À propos</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="./index.html#skills" class="nav-link"
+                ><i class="fa-solid fa-file nav-icon"></i> Compétences</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                href="./index.html#portfolio"
+                class="nav-link active"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                <i class="fa-solid fa-image nav-icon"></i> Projets
+              </a>
+              <div class="dropdown-menu show">
+                <a class="dropdown-item" href="./polaris.html">Polaris</a>
+                <a class="dropdown-item active" href="./tictac.html">Tic tac</a>
+                <a class="dropdown-item" href="./grottefantastique.html"
+                  >Grotte Fantastique</a
+                >
+                <a class="dropdown-item" href="./artechouse.html">Artechouse</a>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a href="./index.html#contact" class="nav-link"
+                ><i class="fa-solid fa-message nav-icon"></i> Contact</a
+              >
+            </li>
+          </ul>
+          <i class="fa-solid fa-xmark nav-close" id="nav-close"></i>
+        </div>
+
+        <div class="nav-btns">
+          <!-- theme btn  -->
+          <i class="fa-regular fa-moon change-theme" id="theme-button"></i>
+
+          <div class="nav-toggle" id="nav-toggle">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="about section">
+        <h2 class="section-title">Tic Tac</h2>
+        <span class="section-subtitle">Montage vidéo</span>
+        <!-- Le projet  -->
+        <section class="projet-section">
+          <div class="container video-tictac">
+            <iframe
+              src="https://www.youtube.com/embed/LgqaQOxrts8?"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              class="tictac-img"
+            ></iframe>
+          </div>
+        </section>
+        <div class="about-container container grid">
+          <div class="about-data">
+            <h3>Description</h3>
+            <!-- description sur le projet  -->
+            <p class="about-description">
+              Nicole est une jeune femme qui se présente chez la fameuse
+              entreprise de mode minimaliste pour
+              <span class="mauve">passer une entrevue</span>. Par peur d’arriver
+              en retard, elle décide d’arriver
+              <span class="mauve">deux heures à l’avance.</span>
+              Cette précaution lui joue un tour. Ennuyée, Nicole s’endort sur
+              une chaise dans la salle d’attente de l’entreprise. Plus tard,
+              elle se fait réveiller par la secrétaire et elle réalise qu’elle a
+              <span class="mauve">manqué son entrevue.</span>
+            </p>
+            <h3>Rôles</h3>
+            <p class="about-description">
+              Animatrice 2d <br />
+              Réalisatrice <br />
+              Directrice photo
+            </p>
+            <h3>Prix</h3>
+            <p class="about-description">
+              <strong>Bourse 2023</strong> <br />
+              Concours d'essais audiovisuels <br />
+              Collège Montmorency
+            </p>
+            <h3>Nature du travail</h3>
+
+            <p class="about-description skills-content-projet">
+              <span class="skills-name"><i class="fa-solid fa-users"></i></span>
+            </p>
+
+            <h3>Logiciels et techniques utilisées</h3>
+            <div class="skills-content container">
+              <div class="skills-name">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="1em"
+                  height="1em"
+                  viewBox="0 0 128 128"
+                >
+                  <path
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                    d="M47.955 69h15.371c-2.646-9-5.252-17.32-7.816-25.776C53.022 51.71 50.498 60 47.955 69m76.157-68H2.873C.687 1 1 1.476 1 3.585v121.394C1 127.086.687 127 2.719 127h121.547c2.031 0 2.734.086 2.734-2.022V3.739C127 1.476 126.298 1 124.112 1M77.298 96c-1.637 0-3.28-.133-4.909-.016c-1.175.088-1.568-.406-1.881-1.426c-1.514-4.931-3.123-9.86-4.638-14.79c-.305-.992-.741-1.354-1.816-1.341c-5.523.064-11.049.058-16.573-.007c-1.163-.014-1.698.296-2.03 1.45c-1.406 4.904-2.944 9.768-4.365 14.667c-.308 1.062-.776 1.433-1.904 1.404c-3.318-.083-6.641-.032-10.274-.032c.959-3.045 1.829-5.861 2.729-8.665c5.514-17.2 11.047-34.4 16.521-51.611c.382-1.198.913-1.567 2.143-1.54c3.886.086 7.775.022 11.663 0c.727-.005 1.223.038 1.489.864c6.505 20.116 13.033 40.356 19.555 60.47c.028.091.01.573.025.573zM98 96H86V51h12zm-6.35-51.071c-3.665-.005-6.289-2.528-6.314-6.07c-.024-3.532 2.707-6.159 6.406-6.163c3.728-.004 6.355 2.537 6.384 6.171c.026 3.545-2.667 6.068-6.476 6.062"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div class="skills-name">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="1em"
+                  height="1em"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M389.186 214.341c4.678 8.911 6.247 18.416 6.107 28.248h-67.587c4.105-26.449 14.979-42.58 36.555-42.095c12.549 0 20.857 4.622 24.925 13.847m-248.688 36.002H198.1l-29.909-112.99c-3.756 25.557-16.927 69.1-27.693 112.99M512 0v512H0V0zM274.413 365.548L195.228 98.582h-54.73c0 5.92-.38 12.376-1.108 14.955c-.744 2.596-1.108 4.985-1.108 7.2L68.336 365.548h41.384l19.7-75.326h77.543l21.684 75.326zm161.852-120.744c0-17.724-5.176-35.447-15.508-53.171c-10.35-17.724-28.802-26.586-55.388-26.586c-25.858 0-45.971 10.16-60.371 30.463C277.833 231.333 275 299 303.89 338.408c13.656 20.32 36.365 30.464 68.126 30.464c17.393-.044 33.978-2.142 48.74-8.863c1.723-1.774 2.168-2.616 2.216-5.539v-29.909c-.05-2.074-1.187-2.16-3.323-2.214c-21.615 10.563-53.033 10.187-68.928 1.022c-14.79-8.527-23.485-26.35-23.015-47.547h63.141c11.078 0 19.94-.174 26.586-.554c6.647-.364 11.44-.918 14.4-1.662c.728 0 1.282-.174 1.662-.554l1.662-1.662c0-2.215.173-5.712.554-10.524c.363-4.794.554-10.142.554-16.062"
+                  />
+                </svg>
+              </div>
+              <div class="skills-name">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="1em"
+                  height="1em"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M17.621 0L5.977.004c-1.37 0-2.756.345-3.762 1.11a4.9 4.9 0 0 0-1.61 2.003C.233 3.93 0 5.02 0 5.951l.012 12.2c.002 1.604.479 3.057 1.461 4.112c.984 1.056 2.462 1.683 4.331 1.691L16.856 24c1.26.005 3.095-.036 4.303-.714c1.075-.605 2.025-1.556 2.497-2.984c.278-.84.345-2.084.344-3.147l-.021-11.13c-.002-.888-.15-2.023-.547-2.934c-.425-.976-1.181-1.815-2.322-2.425C20.353.26 19.123 0 17.622 0zm0 .93c1.378 0 2.538.295 3.04.565c.977.523 1.544 1.166 1.889 1.96c.315.721.47 1.793.473 2.572l.018 11.13c.002 1.013-.097 2.257-.298 2.86c-.396 1.202-1.146 1.946-2.063 2.462c-.814.457-2.612.593-3.82.588l-11.05-.044c-1.657-.007-2.832-.534-3.626-1.386c-.792-.851-1.212-2.06-1.212-3.485L.999 5.95c0-.829.196-1.827.474-2.437c.345-.757.75-1.207 1.365-1.674C3.585 1.27 4.868.97 6.08.97zm-5.66 3.423c-1.976.089-3.204 1.658-3.214 3.29c.019 1.443 1.635 3.481 2.884 4.53c.12.099.154.109.33.18c.062.025.198-.047.327-.135c.36-.245.993-.947 1.648-1.738a7.7 7.7 0 0 0 1.031-1.683c.409-.89.261-1.599.235-1.888a4 4 0 0 0-.99-1.692a3.36 3.36 0 0 0-2.251-.864m4.172 7.922a10.2 10.2 0 0 0-3.244.61c-.15.058-.26.1-.374.17c-.057.036-.11.135-.105.292c.017.433.29 1.278.624 2.27c.384 1.135 1.066 2.27 1.844 2.74a3.23 3.23 0 0 0 2.53.342c.832-.243 1.595-.868 1.962-1.546c.986-1.818.19-3.548-1.121-4.417c-.447-.296-1.133-.445-1.89-.46zm-8.432.038a6 6 0 0 0-.752.047c-.596.078-.932.273-1.29.51a3.18 3.18 0 0 0-1.365 1.979c-.075.552-.086 1.053.033 1.507c.433 1.389 1.326 2.222 2.847 2.452c.636.028 1.37-.063 1.99-.45c1.269-.782 2.08-3.17 2.412-4.742c.053-.176.035-.357-.013-.42c-.005-.067-.044-.113-.19-.183c-.398-.192-1.32-.417-2.375-.6a7.7 7.7 0 0 0-1.297-.1"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- footer  -->
+      <footer class="footer">
+        <div class="footer-bg">
+          <div class="footer-container container grid">
+            <div>
+              <a href="index.html"
+                ><h1 class="footer-title">Prethiah Rajaratnam</h1></a
+              >
+            </div>
+            <ul class="footer-links">
+              <li>
+                <a href="./index.html#home" class="footer-link">Accueil</a>
+              </li>
+              <li>
+                <a href="./index.html#about" class="footer-link">Propos</a>
+              </li>
+
+              <li>
+                <a href="./index.html#skills" class="footer-link"
+                  >Compétences</a
+                >
+              </li>
+              <li>
+                <a href="./index.html#portfolio" class="footer-link"
+                  >Portfolio</a
+                >
+              </li>
+            </ul>
+
+            <div class="footer-socials">
+              <a href="" target="_blank" class="footer-social">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a
+                href="https://www.behance.net/prethiah"
+                target="_blank"
+                target="_blank"
+                class="footer-social"
+              >
+                <i class="fa-brands fa-behance"></i>
+              </a>
+              <a
+                href="https://github.com/rprethi"
+                target="_blank"
+                class="footer-social"
+              >
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <!-- Libraries  -->
+    <script src="Libraries/swiper-bundle.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/9b634c15bd.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
